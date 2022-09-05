@@ -1,0 +1,150 @@
+{
+  "features": [
+    {
+      "id": 1,
+      "title": "Самый большой выбор техники",
+      "icon": "./src/assets/icons/featuresFirst.svg"
+    },
+    {
+      "id": 2,
+      "title": "Быстрое оформление заказа",
+      "icon": "./src/assets/icons/featuresSecond.svg"
+    },
+    {
+      "id": 3,
+      "title": "Можно забрать заказ в пункте выдачи",
+      "icon": "./src/assets/icons/featuresThird.svg"
+    },
+    {
+      "id": 4,
+      "title": "Доставка в любую точку Москвы",
+      "icon": "./src/assets/icons/featuresFourth.svg"
+    },
+    {
+      "id": 5,
+      "title": "Оплата картой и наличными",
+      "icon": "./src/assets/icons/featuresFifthy.svg"
+    }
+  ],
+  "secondFeatures": {
+    "title": "Зарабатывайте вместе с нами",
+    "description": "Сдавайте свою технику через наш сервис, разместив её в каталоге, и получайте стабильную прибыль.",
+    "items": [
+      {
+        "id": 1,
+        "title": "Доступный способ инвестировать",
+        "icon": "./src/assets/icons/jewerly.svg"
+      },
+      {
+        "id": 2,
+        "title": "Постоянный стабильный доход",
+        "icon": "./src/assets/icons/calendar.svg"
+      },
+      {
+        "id": 3,
+        "title": "Гарантии сохранности техники",
+        "icon": "./src/assets/icons/rain.svg"
+      },
+      {
+        "id": 4,
+        "title": "Прозрачные выплаты",
+        "icon": "./src/assets/icons/eye.svg"
+      }
+    ]
+  },
+  "news": [
+    {
+      "id": 1,
+      "title": "Выбираем SD-карты для съемки",
+      "description": "Раз в год среди пользователей сайта проводят опрос, который позволяет составить портрет среднестатистического пользователя сайта, во многом совпадающий с образом.",
+      "date": "12.12.2022",
+      "image": "./src/assets/images/newsFirst.png",
+      "comments": [
+        {
+          "id": 1,
+          "comment": "Very Beatiful WebSite",
+          "date": "12.12.2022",
+          "time": "12:34",
+          "user": "Jon Doe"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Подкаст LAM: Безнадёжность, смерть, обман и фильм",
+      "description": "Каждый день сайт Stack Overflow, популярную систему вопросов и ответов, которая есть в закладках у многих программистов, посещают около 32 млн человек.",
+      "date": "12.12.2022",
+      "image": "./src/assets/images/newsSecond.png",
+      "comments": [
+        {
+          "id": 1,
+          "comment": "Very Beatiful WebSite",
+          "date": "12.12.2022",
+          "time": "12:34",
+          "user": "Jon Doe"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Выбираем SD-карты для съемки",
+      "description": "За исключением отсутствующей системы аэродинамического охлаждения, корпус этого ноутбука почти такой же.",
+      "date": "12.12.2022",
+      "image": "./src/assets/images/newsThird.png",
+      "comments": [
+        {
+          "id": 1,
+          "comment": "Very Beatiful WebSite",
+          "date": "12.12.2022",
+          "time": "12:34",
+          "user": "Jon Doe"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Что представила Photokina",
+      "description": "Ноутбук Zephyrus S (GX502) весит 2 кг, а корпус толщиной всего 18,9 мм позволяет легко уместить его в обычный рюкзак.",
+      "date": "12.12.2022",
+      "image": "./src/assets/images/newsFourth.png",
+      "comments": [
+        {
+          "id": 1,
+          "comment": "Very Beatiful WebSite",
+          "date": "12.12.2022",
+          "time": "12:34",
+          "user": "Jon Doe"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Новинка goPro Hero 5",
+      "description": "Специальные «легкие» версии приложений для Android GO и отсутствие некоторых предустановленных программ.",
+      "date": "12.12.2022",
+      "image": "./src/assets/images/newsFifthy.png",
+      "comments": [
+        {
+          "id": 1,
+          "comment": "Very Beatiful WebSite",
+          "date": "12.12.2022",
+          "time": "12:34",
+          "user": "Jon Doe"
+        }
+      ]
+    }
+  ],
+  "branch":[
+    {"id":1,"title":"Фотопрокат Zoom","address":"Малая Ордынка, 25","url":"http://zoom-prokat.ru"},
+    {"id":2,"title":"Rental Photo","address":"Киркорова, 180/1","url":"http://rentalphoto.com"},
+    {"id":3,"title":"Panasonic Company","address":"Малая Ордынка, 25, 25","url":"http://zoom-prokat.ru"},
+    {"id":4,"title":"Торговый Центр","address":"Киркорова, 180/1","url":"http://rentalphoto.com"}
+  ],
+  "category":[
+    {"id":1,"title":"Фотокамеры Canon от 3000 рублей","image":"./src/assets/images/category1.png"},
+    {"id":2,"title":"Видеокамеры по 200 рублей в сутки","image":"./src/assets/images/category2.png"},
+    {"id":3,"title":"Товар недели всего за 4000 рублей","image":"./src/assets/images/category3.png"},
+    {"id":4,"title":"Лучшие объективы по 700 рублей","image":"./src/assets/images/category4.png"},
+    {"id":5,"title":"Отличные фотокамеры за 1500 рублей","image":"./src/assets/images/category5.png"}
+  ]
+}

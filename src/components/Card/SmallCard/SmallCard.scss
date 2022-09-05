@@ -1,0 +1,70 @@
+@import '../../../assets/variables/color';
+
+.small {
+  margin: 100px;
+  width: 255px;
+  padding: 20px 10px;
+  border: 1px solid $border;
+
+  &__header {
+    height: 70px;
+    position: relative;
+    color: $dark;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 40px;
+
+    img {
+      position: absolute;
+      top: 70%;
+      left: 50%;
+      transform: translate(-65%, -50%);
+      width: 70%;
+    }
+
+    .star, .compare {
+      cursor: pointer;
+      position: absolute;
+      top: 0;
+      right: 5%;
+    }
+
+    .compare {
+      top: 50px;
+    }
+
+  }
+
+  &__body {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 20px;
+    row-gap: 10px;
+
+    .model {
+      font-weight: 700;
+      font-size: 16px;
+    }
+
+    .company,.price {
+      font-weight: 400;
+      font-size: 14px;
+    }
+
+    .price {
+      color: $green;
+    }
+  }
+
+  &__footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+  }
+}
